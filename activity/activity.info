@@ -1,0 +1,7 @@
+[Activity]
+name = GMapCatcher
+activity_version = 3
+bundle_id = org.sugarlabs.GMapCatcher
+exec = sugar-activity activity.GMapCatcher
+icon = earth
+license = GPLv2+
