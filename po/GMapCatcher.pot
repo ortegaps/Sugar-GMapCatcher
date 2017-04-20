@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-20 18:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "GMapCatcher"
+msgstr ""
+
+#: activity.py:92
+msgid "Run GMapCatcher"
+msgstr ""
+
+#: activity.py:94
+msgid "About GMapCatcher"
+msgstr ""
+
+#: activity.py:96
+msgid "Credits"
+msgstr ""
+
+#: activity.py:131
+msgid "How to use GMapCatcher"
+msgstr ""
+
+#: activity.py:138
+msgid ""
+"\n"
+"Overview\n"
+"\n"
+"GMapCatcher is an offline maps viewer. It can display maps from many "
+"providers such as:\n"
+"\n"
+"CloudMade, OpenStreetMap, Yahoo Maps, Bing Maps, Nokia Maps.\n"
+"\n"
+"It displays them using a custom GUI. User can view the maps while offline. "
+"GMapCatcher doesn't depend on the map's JavaScript.\n"
+"\n"
+"GMapCatcher is written in Python 2.7 & PyGTK, can run on Linux, Windows and "
+"Mac OSX.\n"
+"\n"
+"Usage\n"
+"\n"
+"maps.py is a gui program used to browse google map. With the offline toggle "
+"button unchecked, it can download google map tiles automatically.\n"
+"\n"
+"Once the file downloaded, it will reside on user's hard disk and needn't to "
+"be downloaded again any more.\n"
+"\n"
+"At release 0.02, it use multi-threaded downloader and can be faster.\n"
+"\n"
+"After version 0.04, user can force GMapCatcher to re-download old map tiles "
+"by checking 'Force update'.\n"
+"\n"
+"If a tile is older than 24 hours, it will be re-downloaded.\n"
+"\n"
+" download.py is a downloader tools that can be used to download map tiles "
+"without gui. maps can use files it downloaded without configuration.\n"
+"\n"
+"Below is an example using download.py:\n"
+"\n"
+"$ download.py --location='Paris, France' --max-zoom=16 --min-zoom=0 --"
+"latrange=2.0 --lngrange=2.0\n"
+msgstr ""
+
+#: activity.py:165 activity.py:194
+msgid "Exit"
+msgstr ""
+
+#: activity.py:187
+msgid ""
+"\n"
+"About GMapCather\n"
+"\n"
+"Authors:\n"
+"\n"
+"pi3orama@gmail.com, HelderSepu@gmail.com\n"
+"\n"
+"Sugar version for Pablo Ortega salomonpabloortega@gmail.com\n"
+"\n"
+"For more information https://github.com/heldersepu/GMapCatcher\n"
+msgstr ""
